@@ -1,0 +1,241 @@
+2025-06-17 08:58:56,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.109:5000
+2025-06-17 08:58:56,763 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 09:00:42,526 - INFO - Received chat request: What is Green University?
+2025-06-17 09:00:42,539 - INFO - Searching for answer to: What is Green University?
+2025-06-17 09:00:42,539 - INFO - Loaded 709 data points
+2025-06-17 09:00:42,539 - INFO - Blocked keywords: 2
+2025-06-17 09:00:42,541 - INFO - Best match found with score: 40.0
+2025-06-17 09:00:42,542 - INFO - Returning answer with Low confidence (40.0%)
+2025-06-17 09:00:42,542 - INFO - 127.0.0.1 - - [17/Jun/2025 09:00:42] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:00:58,055 - INFO - 127.0.0.1 - - [17/Jun/2025 09:00:58] "GET /health HTTP/1.1" 200 -
+2025-06-17 09:03:02,423 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:02] "GET /health HTTP/1.1" 200 -
+2025-06-17 09:03:05,477 - INFO - Received chat request: What is Green University?
+2025-06-17 09:03:05,484 - INFO - Searching for answer to: What is Green University?
+2025-06-17 09:03:05,484 - INFO - Loaded 709 data points
+2025-06-17 09:03:05,484 - INFO - Blocked keywords: 2
+2025-06-17 09:03:05,486 - INFO - Best match found with score: 40.0
+2025-06-17 09:03:05,486 - INFO - Returning answer with Low confidence (40.0%)
+2025-06-17 09:03:05,486 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:05] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:03:08,551 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:08] "GET /analytics HTTP/1.1" 200 -
+2025-06-17 09:03:11,623 - INFO - Received chat request: test feedback question
+2025-06-17 09:03:11,629 - INFO - Searching for answer to: test feedback question
+2025-06-17 09:03:11,629 - INFO - Loaded 709 data points
+2025-06-17 09:03:11,629 - INFO - Blocked keywords: 2
+2025-06-17 09:03:11,631 - INFO - No suitable match found
+2025-06-17 09:03:11,632 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:11] "[33mPOST /chat HTTP/1.1[0m" 404 -
+2025-06-17 09:03:21,764 - INFO - Received chat request: Green University admission
+2025-06-17 09:03:21,771 - INFO - Searching for answer to: Green University admission
+2025-06-17 09:03:21,771 - INFO - Loaded 709 data points
+2025-06-17 09:03:21,771 - INFO - Blocked keywords: 2
+2025-06-17 09:03:21,773 - INFO - Best match found with score: 32.0
+2025-06-17 09:03:21,773 - INFO - Returning answer with Low confidence (32.0%)
+2025-06-17 09:03:21,773 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:21] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:03:27,404 - INFO - Received feedback: like for question: Green University admission
+2025-06-17 09:03:27,405 - INFO - Saved data to D:\VS Code\GreentBot\feedback_analytics.json
+2025-06-17 09:03:27,405 - INFO - Positive feedback recorded
+2025-06-17 09:03:27,405 - INFO - 127.0.0.1 - - [17/Jun/2025 09:03:27] "POST /feedback HTTP/1.1" 200 -
+2025-06-17 09:05:26,796 - INFO - 127.0.0.1 - - [17/Jun/2025 09:05:26] "GET /health HTTP/1.1" 200 -
+2025-06-17 09:05:31,552 - INFO - 127.0.0.1 - - [17/Jun/2025 09:05:31] "GET /analytics HTTP/1.1" 200 -
+2025-06-17 09:05:57,403 - INFO - 127.0.0.1 - - [17/Jun/2025 09:05:57] "GET /health HTTP/1.1" 200 -
+2025-06-17 09:05:58,236 - INFO - 127.0.0.1 - - [17/Jun/2025 09:05:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:05:58,545 - INFO - Received chat request: What is Green University?
+2025-06-17 09:05:58,550 - INFO - Searching for answer to: What is Green University?
+2025-06-17 09:05:58,550 - INFO - Loaded 709 data points
+2025-06-17 09:05:58,550 - INFO - Blocked keywords: 2
+2025-06-17 09:05:58,552 - INFO - Best match found with score: 40.0
+2025-06-17 09:05:58,553 - INFO - Returning answer with Low confidence (40.0%)
+2025-06-17 09:05:58,553 - INFO - 127.0.0.1 - - [17/Jun/2025 09:05:58] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:09:21,790 - INFO - 127.0.0.1 - - [17/Jun/2025 09:09:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:09:22,054 - INFO - Received chat request: admission cse
+2025-06-17 09:09:22,060 - INFO - Searching for answer to: admission cse
+2025-06-17 09:09:22,060 - INFO - Loaded 709 data points
+2025-06-17 09:09:22,060 - INFO - Blocked keywords: 2
+2025-06-17 09:09:22,062 - INFO - No suitable match found
+2025-06-17 09:09:22,063 - INFO - 127.0.0.1 - - [17/Jun/2025 09:09:22] "[33mPOST /chat HTTP/1.1[0m" 404 -
+2025-06-17 09:09:58,596 - INFO - 127.0.0.1 - - [17/Jun/2025 09:09:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:09:58,909 - INFO - Received chat request: cse
+2025-06-17 09:09:58,914 - INFO - Searching for answer to: cse
+2025-06-17 09:09:58,914 - INFO - Loaded 709 data points
+2025-06-17 09:09:58,914 - INFO - Blocked keywords: 2
+2025-06-17 09:09:58,916 - INFO - Best match found with score: 90
+2025-06-17 09:09:58,916 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:09:58,917 - INFO - 127.0.0.1 - - [17/Jun/2025 09:09:58] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:10:20,985 - INFO - 127.0.0.1 - - [17/Jun/2025 09:10:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:10:21,299 - INFO - Received chat request: enroll
+2025-06-17 09:10:21,306 - INFO - Searching for answer to: enroll
+2025-06-17 09:10:21,306 - INFO - Loaded 709 data points
+2025-06-17 09:10:21,306 - INFO - Blocked keywords: 2
+2025-06-17 09:10:21,308 - INFO - Best match found with score: 90
+2025-06-17 09:10:21,308 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:10:21,309 - INFO - 127.0.0.1 - - [17/Jun/2025 09:10:21] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:27:04,704 - INFO - 127.0.0.1 - - [17/Jun/2025 09:27:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:27:04,966 - INFO - Received chat request: cse
+2025-06-17 09:27:04,972 - INFO - Searching for answer to: cse
+2025-06-17 09:27:04,972 - INFO - Loaded 709 data points
+2025-06-17 09:27:04,972 - INFO - Blocked keywords: 2
+2025-06-17 09:27:04,974 - INFO - Best match found with score: 90
+2025-06-17 09:27:04,974 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:27:04,975 - INFO - 127.0.0.1 - - [17/Jun/2025 09:27:04] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:28:19,458 - INFO - 127.0.0.1 - - [17/Jun/2025 09:28:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:28:19,722 - INFO - Received chat request: Can I reapply for admission if previously rejected?
+2025-06-17 09:28:19,727 - INFO - Searching for answer to: Can I reapply for admission if previously rejected?
+2025-06-17 09:28:19,728 - INFO - Loaded 709 data points
+2025-06-17 09:28:19,728 - INFO - Blocked keywords: 2
+2025-06-17 09:28:19,730 - INFO - Best match found with score: 100
+2025-06-17 09:28:19,730 - INFO - Returning answer with Very High confidence (100%)
+2025-06-17 09:28:19,731 - INFO - 127.0.0.1 - - [17/Jun/2025 09:28:19] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:34:01,142 - INFO - 127.0.0.1 - - [17/Jun/2025 09:34:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:34:01,389 - INFO - Received chat request: cse
+2025-06-17 09:34:01,395 - INFO - Searching for answer to: cse
+2025-06-17 09:34:01,395 - INFO - Loaded 709 data points
+2025-06-17 09:34:01,395 - INFO - Blocked keywords: 2
+2025-06-17 09:34:01,397 - INFO - Best match found with score: 90
+2025-06-17 09:34:01,397 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:34:01,398 - INFO - 127.0.0.1 - - [17/Jun/2025 09:34:01] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:35:39,188 - INFO - 127.0.0.1 - - [17/Jun/2025 09:35:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:35:39,453 - INFO - Received chat request: cse
+2025-06-17 09:35:39,459 - INFO - Searching for answer to: cse
+2025-06-17 09:35:39,459 - INFO - Loaded 709 data points
+2025-06-17 09:35:39,459 - INFO - Blocked keywords: 2
+2025-06-17 09:35:39,461 - INFO - Best match found with score: 90
+2025-06-17 09:35:39,461 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:35:39,462 - INFO - 127.0.0.1 - - [17/Jun/2025 09:35:39] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:35:54,285 - INFO - 127.0.0.1 - - [17/Jun/2025 09:35:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:35:54,595 - INFO - Received chat request: cse
+2025-06-17 09:35:54,600 - INFO - Searching for answer to: cse
+2025-06-17 09:35:54,600 - INFO - Loaded 709 data points
+2025-06-17 09:35:54,601 - INFO - Blocked keywords: 2
+2025-06-17 09:35:54,602 - INFO - Best match found with score: 90
+2025-06-17 09:35:54,603 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:35:54,603 - INFO - 127.0.0.1 - - [17/Jun/2025 09:35:54] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:36:18,905 - INFO - 127.0.0.1 - - [17/Jun/2025 09:36:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:36:19,210 - INFO - Received chat request: cse
+2025-06-17 09:36:19,216 - INFO - Searching for answer to: cse
+2025-06-17 09:36:19,216 - INFO - Loaded 709 data points
+2025-06-17 09:36:19,216 - INFO - Blocked keywords: 2
+2025-06-17 09:36:19,218 - INFO - Best match found with score: 90
+2025-06-17 09:36:19,218 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:36:19,219 - INFO - 127.0.0.1 - - [17/Jun/2025 09:36:19] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:37:29,417 - INFO - 127.0.0.1 - - [17/Jun/2025 09:37:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:37:29,680 - INFO - Received chat request: cse
+2025-06-17 09:37:29,685 - INFO - Searching for answer to: cse
+2025-06-17 09:37:29,685 - INFO - Loaded 709 data points
+2025-06-17 09:37:29,686 - INFO - Blocked keywords: 2
+2025-06-17 09:37:29,688 - INFO - Best match found with score: 90
+2025-06-17 09:37:29,688 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:37:29,689 - INFO - 127.0.0.1 - - [17/Jun/2025 09:37:29] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:40:40,590 - INFO - 127.0.0.1 - - [17/Jun/2025 09:40:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:40:40,856 - INFO - Received chat request: cse
+2025-06-17 09:40:40,861 - INFO - Searching for answer to: cse
+2025-06-17 09:40:40,861 - INFO - Loaded 709 data points
+2025-06-17 09:40:40,862 - INFO - Blocked keywords: 2
+2025-06-17 09:40:40,863 - INFO - Best match found with score: 90
+2025-06-17 09:40:40,864 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:40:40,864 - INFO - 127.0.0.1 - - [17/Jun/2025 09:40:40] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:41:50,605 - INFO - 127.0.0.1 - - [17/Jun/2025 09:41:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:41:50,869 - INFO - Received chat request: what is the process enrollment
+2025-06-17 09:41:50,874 - INFO - Searching for answer to: what is the process enrollment
+2025-06-17 09:41:50,874 - INFO - Loaded 709 data points
+2025-06-17 09:41:50,875 - INFO - Blocked keywords: 2
+2025-06-17 09:41:50,877 - INFO - Best match found with score: 40.0
+2025-06-17 09:41:50,877 - INFO - Returning answer with Low confidence (40.0%)
+2025-06-17 09:41:50,878 - INFO - 127.0.0.1 - - [17/Jun/2025 09:41:50] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:46:24,881 - INFO - 127.0.0.1 - - [17/Jun/2025 09:46:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:46:25,149 - INFO - Received chat request: cse
+2025-06-17 09:46:25,157 - INFO - Searching for answer to: cse
+2025-06-17 09:46:25,157 - INFO - Loaded 709 data points
+2025-06-17 09:46:25,157 - INFO - Blocked keywords: 2
+2025-06-17 09:46:25,159 - INFO - Best match found with score: 90
+2025-06-17 09:46:25,160 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:46:25,160 - INFO - 127.0.0.1 - - [17/Jun/2025 09:46:25] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:46:58,723 - INFO - 127.0.0.1 - - [17/Jun/2025 09:46:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:46:59,033 - INFO - Received chat request: enroll
+2025-06-17 09:46:59,038 - INFO - Searching for answer to: enroll
+2025-06-17 09:46:59,038 - INFO - Loaded 709 data points
+2025-06-17 09:46:59,039 - INFO - Blocked keywords: 2
+2025-06-17 09:46:59,040 - INFO - Best match found with score: 90
+2025-06-17 09:46:59,041 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:46:59,041 - INFO - 127.0.0.1 - - [17/Jun/2025 09:46:59] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:49:27,623 - INFO - 127.0.0.1 - - [17/Jun/2025 09:49:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:49:27,891 - INFO - Received chat request: cse
+2025-06-17 09:49:27,897 - INFO - Searching for answer to: cse
+2025-06-17 09:49:27,897 - INFO - Loaded 709 data points
+2025-06-17 09:49:27,897 - INFO - Blocked keywords: 2
+2025-06-17 09:49:27,899 - INFO - Best match found with score: 90
+2025-06-17 09:49:27,899 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:49:27,900 - INFO - 127.0.0.1 - - [17/Jun/2025 09:49:27] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:49:44,390 - INFO - 127.0.0.1 - - [17/Jun/2025 09:49:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:49:44,703 - INFO - Received chat request: cse
+2025-06-17 09:49:44,709 - INFO - Searching for answer to: cse
+2025-06-17 09:49:44,709 - INFO - Loaded 709 data points
+2025-06-17 09:49:44,709 - INFO - Blocked keywords: 2
+2025-06-17 09:49:44,711 - INFO - Best match found with score: 90
+2025-06-17 09:49:44,711 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:49:44,712 - INFO - 127.0.0.1 - - [17/Jun/2025 09:49:44] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:50:11,422 - INFO - 127.0.0.1 - - [17/Jun/2025 09:50:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:50:11,734 - INFO - Received chat request: cse
+2025-06-17 09:50:11,740 - INFO - Searching for answer to: cse
+2025-06-17 09:50:11,740 - INFO - Loaded 709 data points
+2025-06-17 09:50:11,740 - INFO - Blocked keywords: 2
+2025-06-17 09:50:11,742 - INFO - Best match found with score: 90
+2025-06-17 09:50:11,743 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:50:11,744 - INFO - 127.0.0.1 - - [17/Jun/2025 09:50:11] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:50:27,585 - INFO - 127.0.0.1 - - [17/Jun/2025 09:50:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:50:27,897 - INFO - Received chat request: cse
+2025-06-17 09:50:27,902 - INFO - Searching for answer to: cse
+2025-06-17 09:50:27,902 - INFO - Loaded 709 data points
+2025-06-17 09:50:27,903 - INFO - Blocked keywords: 2
+2025-06-17 09:50:27,904 - INFO - Best match found with score: 90
+2025-06-17 09:50:27,905 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:50:27,906 - INFO - 127.0.0.1 - - [17/Jun/2025 09:50:27] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:51:41,850 - INFO - 127.0.0.1 - - [17/Jun/2025 09:51:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:51:42,101 - INFO - Received chat request: cse
+2025-06-17 09:51:42,107 - INFO - Searching for answer to: cse
+2025-06-17 09:51:42,107 - INFO - Loaded 709 data points
+2025-06-17 09:51:42,107 - INFO - Blocked keywords: 2
+2025-06-17 09:51:42,109 - INFO - Best match found with score: 90
+2025-06-17 09:51:42,109 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:51:42,110 - INFO - 127.0.0.1 - - [17/Jun/2025 09:51:42] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:51:58,738 - INFO - 127.0.0.1 - - [17/Jun/2025 09:51:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:51:59,051 - INFO - Received chat request: cse
+2025-06-17 09:51:59,057 - INFO - Searching for answer to: cse
+2025-06-17 09:51:59,057 - INFO - Loaded 709 data points
+2025-06-17 09:51:59,057 - INFO - Blocked keywords: 2
+2025-06-17 09:51:59,059 - INFO - Best match found with score: 90
+2025-06-17 09:51:59,060 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:51:59,060 - INFO - 127.0.0.1 - - [17/Jun/2025 09:51:59] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:52:20,870 - INFO - 127.0.0.1 - - [17/Jun/2025 09:52:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:52:21,185 - INFO - Received chat request: cse
+2025-06-17 09:52:21,191 - INFO - Searching for answer to: cse
+2025-06-17 09:52:21,192 - INFO - Loaded 709 data points
+2025-06-17 09:52:21,192 - INFO - Blocked keywords: 2
+2025-06-17 09:52:21,194 - INFO - Best match found with score: 90
+2025-06-17 09:52:21,194 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:52:21,194 - INFO - 127.0.0.1 - - [17/Jun/2025 09:52:21] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:53:17,966 - INFO - 127.0.0.1 - - [17/Jun/2025 09:53:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:53:18,276 - INFO - Received chat request: cse
+2025-06-17 09:53:18,281 - INFO - Searching for answer to: cse
+2025-06-17 09:53:18,281 - INFO - Loaded 709 data points
+2025-06-17 09:53:18,282 - INFO - Blocked keywords: 2
+2025-06-17 09:53:18,284 - INFO - Best match found with score: 90
+2025-06-17 09:53:18,284 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:53:18,284 - INFO - 127.0.0.1 - - [17/Jun/2025 09:53:18] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:54:07,736 - INFO - 127.0.0.1 - - [17/Jun/2025 09:54:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:54:08,053 - INFO - Received chat request: cse
+2025-06-17 09:54:08,059 - INFO - Searching for answer to: cse
+2025-06-17 09:54:08,059 - INFO - Loaded 709 data points
+2025-06-17 09:54:08,059 - INFO - Blocked keywords: 2
+2025-06-17 09:54:08,061 - INFO - Best match found with score: 90
+2025-06-17 09:54:08,062 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:54:08,062 - INFO - 127.0.0.1 - - [17/Jun/2025 09:54:08] "POST /chat HTTP/1.1" 200 -
+2025-06-17 09:54:16,852 - INFO - 127.0.0.1 - - [17/Jun/2025 09:54:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-17 09:54:17,165 - INFO - Received chat request: cse
+2025-06-17 09:54:17,171 - INFO - Searching for answer to: cse
+2025-06-17 09:54:17,171 - INFO - Loaded 709 data points
+2025-06-17 09:54:17,171 - INFO - Blocked keywords: 2
+2025-06-17 09:54:17,173 - INFO - Best match found with score: 90
+2025-06-17 09:54:17,173 - INFO - Returning answer with Very High confidence (90%)
+2025-06-17 09:54:17,174 - INFO - 127.0.0.1 - - [17/Jun/2025 09:54:17] "POST /chat HTTP/1.1" 200 -

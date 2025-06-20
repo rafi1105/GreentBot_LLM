@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Offline Function</title>
+</head>
+<body>
+    <h1>Testing Offline Function</h1>
+    <div id="test-results"></div>
+
+    <script>
+        // Copy the offline function and data for testing
+        const CHATBOT_DATA = [
+            {
+                question: "What is Green University?",
+                answer: "Green University of Bangladesh is a private university established in 2003, located in Narayanganj. It offers undergraduate and graduate programs in various fields including Computer Science, Business Administration, and Engineering.",
+                keywords: ["green", "university", "about", "what", "information", "gub"]
+            },
+            {
+                question: "What is the tuition fee for CSE?",
+                answer: "The tuition fee for the BSc in Computer Science and Engineering (CSE) program is BDT 70,000 per semester.",
+                keywords: ["tuition", "fee", "cse", "computer", "science", "engineering", "cost", "price"]
+            }
+        ];
+
+        function findBestOfflineMatch(userInput) {
+            const input = userInput.toLowerCase().trim();
+            
+            // Handle greetings
+            if (input.match(/^(hi|hello|hey|greetings).*$/)) {
+                return "Hello! Welcome to Green University of Bangladesh chatbot. How can I help you today?";
+            }
+            
+            // Find best match based on keywords
+            let bestScore = 0;
+            let bestAnswer = null;
+            
+            for (const item of CHATBOT_DATA) {
+                let score = 0;
+                for (const keyword of item.keywords) {
+                    if (input.includes(keyword.toLowerCase())) {
+                        score += 1;
+                    }
+                }
+                
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestAnswer = item.answer;
+                }
+            }
+            
+            // Return best match or fallback
+            if (bestScore > 0) {
+                return bestAnswer;
+            } else {
+                return "I don't have specific information about that.";
+            }
+        }
+
+        // Test the function
+        const testQuestions = [
+            "hello",
+            "what is green university",
+            "tuition fee for cse",
+            "random question"
+        ];
+
+        const resultsDiv = document.getElementById('test-results');
+        let html = '<h2>Test Results:</h2>';
+
+        testQuestions.forEach(question => {
+            const answer = findBestOfflineMatch(question);
+            html += `<div style="border: 1px solid #ccc; margin: 10px 0; padding: 10px;">
+                <strong>Q:</strong> ${question}<br>
+                <strong>A:</strong> ${answer}
+            </div>`;
+        });
+
+        resultsDiv.innerHTML = html;
+        console.log('✅ Offline function test completed');
+    </script>
+</body>
+</html>

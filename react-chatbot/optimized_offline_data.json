@@ -1,0 +1,2014 @@
+[
+  {
+    "question": "What is the tuition fee per semester for the BSc in Computer Science and Engineering program?",
+    "answer": "The tuition fee for the BSc in Computer Science and Engineering (CSE) program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "CSE",
+      "Computer Science",
+      "academic",
+      "bdt",
+      "bsc",
+      "computer",
+      "cost",
+      "cs"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "How much is the admission fee for undergraduate programs?",
+    "answer": "The admission fee for undergraduate programs is BDT 20,000, which is non-refundable.",
+    "keywords": [
+      "000",
+      "admission",
+      "application",
+      "apply",
+      "bdt",
+      "cost",
+      "enroll",
+      "enrollment",
+      "entry",
+      "fee"
+    ],
+    "categories": [
+      "fees_tuition",
+      "admission",
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What is the total tuition fee for the BBA program?",
+    "answer": "The total tuition fee for the Bachelor of Business Administration (BBA) program is BDT 60,000 per semester.",
+    "keywords": [
+      "000",
+      "BBA",
+      "Business Administration",
+      "academic",
+      "administration",
+      "bachelor",
+      "bba",
+      "bdt",
+      "business",
+      "commerce"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "Are there any additional fees besides tuition?",
+    "answer": "Yes, additional fees include an admission form fee of BDT 1,000, ID card and other fees totaling BDT 1,000, EAP 009 course fee of BDT 2,500, PSD 400 course fee of BDT 2,000, and a refundable library caution fee of BDT 2,000.",
+    "keywords": [
+      "000",
+      "009",
+      "400",
+      "500",
+      "ID card",
+      "additional",
+      "admission",
+      "any",
+      "application",
+      "apply"
+    ],
+    "categories": [
+      "fees_tuition",
+      "admission",
+      "programs_courses",
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What are the admission requirements for undergraduate programs?",
+    "answer": "Applicants must have a minimum GPA of 2.5 in both SSC and HSC examinations. If a student has a GPA of 2.0 in either SSC or HSC, the combined GPA must be at least 6.0.",
+    "keywords": [
+      "GPA",
+      "HSC",
+      "SSC",
+      "admission",
+      "applicants",
+      "application",
+      "apply",
+      "both",
+      "combined",
+      "either"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "academic_calendar",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are there special admission criteria for children of freedom fighters?",
+    "answer": "Yes, children of freedom fighters are eligible for admission if they have a combined GPA of 5.0 in SSC and HSC examinations. They must submit relevant documents for verification.",
+    "keywords": [
+      "GPA",
+      "admission",
+      "application",
+      "apply",
+      "children",
+      "combined",
+      "criteria",
+      "documents",
+      "eligible",
+      "enroll"
+    ],
+    "categories": [
+      "admission",
+      "academic_calendar",
+      "general_info"
+    ]
+  },
+  {
+    "question": "When does the Summer 2025 semester start?",
+    "answer": "The Summer 2025 semester begins with course advising and registration from June 16 to 18, and classes commence on June 20.",
+    "keywords": [
+      "2025",
+      "Summer 2025",
+      "academic",
+      "advising",
+      "begins",
+      "classes",
+      "commence",
+      "course",
+      "june",
+      "registration"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What are the office hours for the admission office?",
+    "answer": "The admission office is open seven days a week from 9:00 AM to 6:00 PM (GMT+6).",
+    "keywords": [
+      "admission",
+      "application",
+      "apply",
+      "days",
+      "enroll",
+      "enrollment",
+      "entry",
+      "gmt",
+      "hours",
+      "office"
+    ],
+    "categories": [
+      "admission",
+      "contact_location",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How can I contact the admission office?",
+    "answer": "You can contact the admission office via email at admission@green.edu.bd or by phone/WhatsApp at +8801324713502, +8801324713503, +8801324713504, +8801324713507, or +8801324713508.",
+    "keywords": [
+      "8801324713502",
+      "8801324713503",
+      "8801324713504",
+      "8801324713507",
+      "8801324713508",
+      "admission",
+      "application",
+      "apply",
+      "bangladesh",
+      "contact"
+    ],
+    "categories": [
+      "admission",
+      "contact_location",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Electrical and Electronic Engineering program?",
+    "answer": "The tuition fee for the BSc in Electrical and Electronic Engineering (EEE) program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "EEE",
+      "Electrical",
+      "Electronic Engineering",
+      "academic",
+      "bdt",
+      "bsc",
+      "cost",
+      "eee"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Textile Engineering program?",
+    "answer": "The tuition fee for the BSc in Textile Engineering program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "Textile Engineering",
+      "academic",
+      "bdt",
+      "bsc",
+      "cost",
+      "eng",
+      "engineering",
+      "fee"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the LLB (Hons) program?",
+    "answer": "The tuition fee for the LLB (Hons) program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "Hons",
+      "LLB",
+      "Law",
+      "academic",
+      "bdt",
+      "cost",
+      "fee",
+      "hons",
+      "llb"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Architecture program?",
+    "answer": "The tuition fee for the BSc in Architecture program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "Architecture",
+      "BSc",
+      "academic",
+      "architecture",
+      "bdt",
+      "bsc",
+      "cost",
+      "fee",
+      "money"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Environmental Science program?",
+    "answer": "The tuition fee for the BSc in Environmental Science program is BDT 60,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "Environmental Science",
+      "academic",
+      "bdt",
+      "bsc",
+      "cost",
+      "cs",
+      "cse",
+      "environmental"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Software Engineering program?",
+    "answer": "The tuition fee for the BSc in Software Engineering program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "Software Engineering",
+      "academic",
+      "bdt",
+      "bsc",
+      "cost",
+      "eng",
+      "engineering",
+      "fee"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in Artificial Intelligence and Data Science program?",
+    "answer": "The tuition fee for the BSc in Artificial Intelligence and Data Science program is BDT 70,000 per semester.",
+    "keywords": [
+      "000",
+      "Artificial Intelligence",
+      "BSc",
+      "Data Science",
+      "academic",
+      "artificial",
+      "bdt",
+      "bsc",
+      "cost",
+      "cs"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the tuition fee per semester for the BSc in English program?",
+    "answer": "The tuition fee for the BSc in English program is BDT 60,000 per semester.",
+    "keywords": [
+      "000",
+      "BSc",
+      "English",
+      "academic",
+      "bdt",
+      "bsc",
+      "cost",
+      "english",
+      "fee",
+      "money"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "How long is each semester at Green University of Bangladesh?",
+    "answer": "Each trimester semester typically lasts 14–15 weeks, including class weeks, midterms, and final exams.",
+    "keywords": [
+      "academic",
+      "bangladesh",
+      "class",
+      "duration",
+      "each",
+      "exams",
+      "final",
+      "green",
+      "gub",
+      "how"
+    ],
+    "categories": [
+      "academic_calendar",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How many credits are required to complete the BSc in CSE?",
+    "answer": "Students must complete at least 144 credits to obtain the BSc in Computer Science and Engineering.",
+    "keywords": [
+      "144",
+      "CSE",
+      "bsc",
+      "complete",
+      "computer",
+      "credits",
+      "cs",
+      "cse",
+      "eng",
+      "engineering"
+    ],
+    "categories": [
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "Can I transfer credits from another university?",
+    "answer": "Yes, Green University accepts credit transfers from recognized institutions after verification and approval.",
+    "keywords": [
+      "accepts",
+      "another",
+      "another university",
+      "approval",
+      "bangladesh",
+      "credit",
+      "credit transfer",
+      "credits",
+      "green",
+      "gub"
+    ],
+    "categories": [
+      "general_info"
+    ]
+  },
+  {
+    "question": "Is there a capstone project in the CSE program?",
+    "answer": "Yes, the CSE program includes a capstone project spread over three parts: CSE 400A, 400B, and 400C.",
+    "keywords": [
+      "400a",
+      "400b",
+      "400c",
+      "CSE",
+      "capstone",
+      "cse",
+      "final year",
+      "includes",
+      "over",
+      "parts"
+    ],
+    "categories": [
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "What courses are offered under Machine Learning and Data Science specialization?",
+    "answer": "Courses include Machine Learning, Natural Language Processing, Digital Image Processing, Data Mining, Information Retrieval, Pattern Recognition, and Big Data Analytics.",
+    "keywords": [
+      "Data Science",
+      "Machine Learning",
+      "analytics",
+      "big",
+      "courses",
+      "cs",
+      "cse",
+      "data",
+      "digital",
+      "image"
+    ],
+    "categories": [
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "Does Green University provide internship opportunities?",
+    "answer": "Yes, industrial training is mandatory under course code CSE 458, helping students gain real-world experience.",
+    "keywords": [
+      "458",
+      "CSE 458",
+      "bangladesh",
+      "code",
+      "course",
+      "cse",
+      "experience",
+      "gain",
+      "green",
+      "gub"
+    ],
+    "categories": [
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What happens if a student misses three classes in a row?",
+    "answer": "If a student is absent for three consecutive classes without prior permission, it must be reported to the Chairperson’s office.",
+    "keywords": [
+      "absence",
+      "absent",
+      "attendance",
+      "chairperson",
+      "classes",
+      "consecutive",
+      "happens",
+      "misses",
+      "office",
+      "permission"
+    ],
+    "categories": [
+      "academic_calendar",
+      "contact_location",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are makeup classes held if a class is missed due to hartal?",
+    "answer": "Yes, if classes are missed due to hartal or emergency, makeup classes are scheduled by the university.",
+    "keywords": [
+      "bangladesh",
+      "class",
+      "classes",
+      "due",
+      "emergency",
+      "green",
+      "gub",
+      "hartal",
+      "held",
+      "makeup"
+    ],
+    "categories": [
+      "academic_calendar",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are students allowed to use a cheat sheet in exams?",
+    "answer": "Yes, in some courses, instructors may allow an A4-size cheat sheet for class tests and exams, depending on class size and discretion.",
+    "keywords": [
+      "allow",
+      "allowed",
+      "cheat",
+      "cheat sheet",
+      "class",
+      "class test",
+      "courses",
+      "depending",
+      "discretion",
+      "exam"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "How many class tests are taken in a trimester?",
+    "answer": "A minimum of three class tests must be conducted in a trimester. The best two scores are usually considered.",
+    "keywords": [
+      "best",
+      "class",
+      "class test",
+      "conducted",
+      "considered",
+      "exam",
+      "how",
+      "many",
+      "minimum",
+      "number"
+    ],
+    "categories": [
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "When are midterm exams typically held?",
+    "answer": "Midterm exams are held around the 7th week of the trimester.",
+    "keywords": [
+      "7th",
+      "around",
+      "exam",
+      "exams",
+      "held",
+      "midterm",
+      "schedule",
+      "trimester",
+      "typically",
+      "week"
+    ],
+    "categories": [
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What is the duration of a theory class?",
+    "answer": "Each theory class is typically 90 minutes long, held once or twice a week depending on the credit hours.",
+    "keywords": [
+      "class",
+      "credit",
+      "depending",
+      "duration",
+      "each",
+      "held",
+      "hours",
+      "long",
+      "minutes",
+      "once"
+    ],
+    "categories": [
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "Are students allowed to view their midterm answer scripts?",
+    "answer": "Yes, students are allowed to see their midterm answer scripts to review mistakes and discuss feedback.",
+    "keywords": [
+      "allowed",
+      "answer",
+      "answer script",
+      "cost",
+      "discuss",
+      "feedback",
+      "midterm",
+      "mistakes",
+      "money",
+      "payment"
+    ],
+    "categories": [
+      "fees_tuition"
+    ]
+  },
+  {
+    "question": "What is Outcome-Based Education (OBE)?",
+    "answer": "OBE focuses on achieving specific outcomes like problem-solving, ethics, and lifelong learning, and is the model followed at GUB.",
+    "keywords": [
+      "OBE",
+      "Outcome-Based Education",
+      "achieving",
+      "based",
+      "education",
+      "ethics",
+      "focuses",
+      "followed",
+      "gub",
+      "learning"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "When was OBE implemented at GUB?",
+    "answer": "Outcome-Based Education (OBE) was introduced at Green University in Spring 2019.",
+    "keywords": [
+      "2019",
+      "OBE",
+      "Spring 2019",
+      "bangladesh",
+      "based",
+      "education",
+      "education model",
+      "green",
+      "gub",
+      "implemented"
+    ],
+    "categories": [
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are students assessed on soft skills?",
+    "answer": "Yes, soft skills like presentation, communication, and ethics are assessed through specific GED and PSD courses.",
+    "keywords": [
+      "assessed",
+      "assessment",
+      "communication",
+      "courses",
+      "ethics",
+      "ged",
+      "like",
+      "presentation",
+      "psd",
+      "skills"
+    ],
+    "categories": [
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "What is the PSD 400 course about?",
+    "answer": "PSD 400 is a zero-credit course titled 'Professional Life Skills Development' aimed at improving students’ employability skills.",
+    "keywords": [
+      "400",
+      "PSD 400",
+      "Professional Life Skills",
+      "aimed",
+      "course",
+      "credit",
+      "development",
+      "employability",
+      "improving",
+      "life"
+    ],
+    "categories": [
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Is English the medium of instruction?",
+    "answer": "Yes, all courses at Green University of Bangladesh are taught in English as the official medium of instruction.",
+    "keywords": [
+      "English",
+      "all",
+      "bangladesh",
+      "courses",
+      "english",
+      "green",
+      "gub",
+      "instruction",
+      "language",
+      "medium"
+    ],
+    "categories": [
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are faculty available for consultation outside class?",
+    "answer": "Yes, faculty are required to maintain office hours for student consultations, typically at least 3 hours per week for a 3-credit course.",
+    "keywords": [
+      "availability",
+      "available",
+      "class",
+      "consultation",
+      "consultations",
+      "course",
+      "credit",
+      "faculty",
+      "hours",
+      "least"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar",
+      "facilities",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "Is EAP 009 mandatory?",
+    "answer": "EAP 009 is optional and only required if a student scores below the English threshold in the admission test.",
+    "keywords": [
+      "009",
+      "EAP 009",
+      "English",
+      "admission",
+      "admission test",
+      "application",
+      "apply",
+      "eap",
+      "english",
+      "enroll"
+    ],
+    "categories": [
+      "admission",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What is the passing grade at Green University?",
+    "answer": "The minimum passing grade is D, equivalent to 40% and a grade point of 2.00.",
+    "keywords": [
+      "bangladesh",
+      "equivalent",
+      "grade",
+      "grade point",
+      "green",
+      "gub",
+      "marks",
+      "minimum",
+      "passing",
+      "point"
+    ],
+    "categories": [
+      "general_info"
+    ]
+  },
+  {
+    "question": "How many trimesters are there in a year at GUB?",
+    "answer": "Green University operates on a tri-semester system: Spring, Summer, and Fall.",
+    "keywords": [
+      "GUB",
+      "academic",
+      "academic calendar",
+      "bangladesh",
+      "fall",
+      "green",
+      "gub",
+      "how",
+      "many",
+      "operates"
+    ],
+    "categories": [
+      "academic_calendar",
+      "general_info"
+    ]
+  },
+  {
+    "question": "When does the Fall trimester usually start?",
+    "answer": "The Fall trimester usually begins in mid-September and ends in December.",
+    "keywords": [
+      "Fall",
+      "begins",
+      "december",
+      "ends",
+      "fall",
+      "mid",
+      "schedule",
+      "september",
+      "start",
+      "trimester"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Is there a graduation ceremony?",
+    "answer": "Yes, Green University organizes convocation ceremonies for graduating students, typically once a year.",
+    "keywords": [
+      "GUB",
+      "bangladesh",
+      "ceremonies",
+      "ceremony",
+      "convocation",
+      "graduating",
+      "graduation",
+      "green",
+      "gub",
+      "once"
+    ],
+    "categories": [
+      "general_info"
+    ]
+  },
+  {
+    "question": "Are there any scholarships for meritorious students?",
+    "answer": "Yes, GUB offers merit-based scholarships for high-achieving students. Criteria are based on GPA and academic performance.",
+    "keywords": [
+      "GPA",
+      "academic",
+      "achieving",
+      "aid",
+      "any",
+      "based",
+      "criteria",
+      "financial",
+      "financial aid",
+      "gpa"
+    ],
+    "categories": [
+      "admission",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "Does GUB offer financial aid for low-income students?",
+    "answer": "Yes, financial aid is available for economically disadvantaged students. Applicants must apply through the proper channel with documents.",
+    "keywords": [
+      "aid",
+      "applicants",
+      "apply",
+      "available",
+      "channel",
+      "disadvantaged",
+      "documents",
+      "economically",
+      "financial",
+      "financial aid"
+    ],
+    "categories": [
+      "admission",
+      "facilities",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "Are there hostels for students?",
+    "answer": "Yes, Green University provides hostel facilities for both male and female students on a first-come, first-served basis.",
+    "keywords": [
+      "accommodation",
+      "bangladesh",
+      "basis",
+      "both",
+      "come",
+      "facilities",
+      "female",
+      "first",
+      "green",
+      "gub"
+    ],
+    "categories": [
+      "general_info"
+    ]
+  },
+  {
+    "question": "Does Green University have a campus library?",
+    "answer": "Yes, GUB has a well-equipped central library with books, journals, and digital resources.",
+    "keywords": [
+      "bangladesh",
+      "books",
+      "building",
+      "campus",
+      "central",
+      "college",
+      "digital",
+      "equipped",
+      "facility",
+      "green"
+    ],
+    "categories": [
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Can I access the library online?",
+    "answer": "Yes, students can access the digital library through the university's official website with their student credentials.",
+    "keywords": [
+      "access",
+      "bangladesh",
+      "books",
+      "credentials",
+      "digital",
+      "green",
+      "gub",
+      "library",
+      "official",
+      "online"
+    ],
+    "categories": [
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How many books can I borrow from the library?",
+    "answer": "Students can borrow up to 3 books at a time for a period of 7 days, renewable once.",
+    "keywords": [
+      "books",
+      "borrow",
+      "days",
+      "digital",
+      "how",
+      "library",
+      "limit",
+      "many",
+      "once",
+      "period"
+    ],
+    "categories": [
+      "facilities"
+    ]
+  },
+  {
+    "question": "Are there any clubs or extracurricular activities?",
+    "answer": "Yes, GUB has several clubs including Debate Club, Robotics Club, Cultural Club, and Sports Club for student engagement.",
+    "keywords": [
+      "activities",
+      "any",
+      "club",
+      "clubs",
+      "cultural",
+      "debate",
+      "engagement",
+      "extracurricular",
+      "gub",
+      "including"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Is there Wi-Fi on campus?",
+    "answer": "Yes, free Wi-Fi is available for students and faculty across the university campus.",
+    "keywords": [
+      "Wi-Fi",
+      "across",
+      "available",
+      "bangladesh",
+      "building",
+      "campus",
+      "college",
+      "facility",
+      "faculty",
+      "free"
+    ],
+    "categories": [
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "What is the dress code at GUB?",
+    "answer": "Students are expected to dress modestly and maintain a formal or semi-formal appearance during academic hours.",
+    "keywords": [
+      "academic",
+      "appearance",
+      "code",
+      "dress",
+      "dress code",
+      "expected",
+      "formal",
+      "gub",
+      "hours",
+      "maintain"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Where is the main campus of Green University located?",
+    "answer": "The main campus of Green University is located in Purbachal American City, Dhaka.",
+    "keywords": [
+      "Green University",
+      "address",
+      "american",
+      "bangladesh",
+      "building",
+      "campus",
+      "city",
+      "college",
+      "dhaka",
+      "facility"
+    ],
+    "categories": [
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Can international students apply?",
+    "answer": "Yes, international students are welcome and should contact the admission office for special guidelines and visa support.",
+    "keywords": [
+      "admission",
+      "application",
+      "apply",
+      "contact",
+      "enroll",
+      "enrollment",
+      "entry",
+      "guidelines",
+      "international",
+      "office"
+    ],
+    "categories": [
+      "admission",
+      "contact_location",
+      "general_info",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "What is the tuition fee for the Computer Science program?",
+    "answer": "The tuition fee for the B.Sc. in Computer Science & Engineering (CSE) is approximately 75,000 BDT per semester.",
+    "keywords": [
+      "000",
+      "CSE",
+      "Computer Science",
+      "academic",
+      "approximately",
+      "bdt",
+      "computer",
+      "cost",
+      "cs",
+      "cse"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "What are the admission requirements for the MBA program?",
+    "answer": "To apply for the MBA program, you need a bachelor's degree with a minimum CGPA of 2.5, along with a completed application form, academic transcripts, and two recommendation letters.",
+    "keywords": [
+      "CGPA",
+      "MBA",
+      "academic",
+      "admission",
+      "along",
+      "application",
+      "apply",
+      "bachelor",
+      "cgpa",
+      "completed"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How can I contact the Registrar's Office?",
+    "answer": "You can reach the Registrar's Office at Green University of Bangladesh by phone at +880 9613 777 888 or via email at registrar@green.edu.bd.",
+    "keywords": [
+      "777",
+      "880",
+      "888",
+      "9613",
+      "Registrar",
+      "bangladesh",
+      "contact",
+      "edu",
+      "email",
+      "green"
+    ],
+    "categories": [
+      "contact_location",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Is there a scholarship program for meritorious students?",
+    "answer": "Yes, GUB offers merit-based scholarships for top-performing students. You can apply through the Financial Aid Office.",
+    "keywords": [
+      "aid",
+      "apply",
+      "based",
+      "financial",
+      "financial aid",
+      "gub",
+      "merit",
+      "meritorious",
+      "offers",
+      "office"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "contact_location",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "Where is the main campus of Green University located?",
+    "answer": "The main campus of Green University of Bangladesh is located at 220/D, Begum Rokeya Sarani, Dhaka 1207.",
+    "keywords": [
+      "1207",
+      "220",
+      "Dhaka",
+      "address",
+      "bangladesh",
+      "begum",
+      "building",
+      "campus",
+      "college",
+      "dhaka"
+    ],
+    "categories": [
+      "facilities",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How do I apply for a transfer from another university?",
+    "answer": "To transfer to GUB, submit your academic transcripts, a transfer application, and a No Objection Certificate (NOC) from your previous university.",
+    "keywords": [
+      "NOC",
+      "academic",
+      "admission",
+      "another",
+      "application",
+      "apply",
+      "bangladesh",
+      "certificate",
+      "green",
+      "gub"
+    ],
+    "categories": [
+      "admission",
+      "general_info"
+    ]
+  },
+  {
+    "question": "Which courses are in the ML & Data Science track?",
+    "answer": "Machine Learning (CSE 411), Data Mining (CSE 435), Big Data Analytics (CSE 441), and related labs.",
+    "keywords": [
+      "411",
+      "435",
+      "441",
+      "analytics",
+      "big",
+      "courses",
+      "cs",
+      "cse",
+      "data",
+      "electives"
+    ],
+    "categories": [
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "How many terms are there in each academic year?",
+    "answer": "3 terms per year (Tri-semester system) labeled as Spring, Fall & Special",
+    "keywords": [
+      "academic",
+      "academic calendar",
+      "each",
+      "fall",
+      "how",
+      "labeled",
+      "many",
+      "per",
+      "schedule",
+      "semester"
+    ],
+    "categories": [
+      "academic_calendar",
+      "facilities"
+    ]
+  },
+  {
+    "question": "What are the office hour requirements for faculty?",
+    "answer": "3 office hours per week for a 3-credit course, posted on Google Calendar and office doors.",
+    "keywords": [
+      "calendar",
+      "consultation",
+      "course",
+      "credit",
+      "doors",
+      "faculty",
+      "google",
+      "hour",
+      "hours",
+      "office"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "academic_calendar",
+      "contact_location"
+    ]
+  },  {
+    "question": "What is the maximum number of credits per trimester?",
+    "answer": "Students in good standing may take up to 15-18 credits per trimester with advisor approval.",
+    "keywords": [
+      "advisor",
+      "approval",
+      "credits",
+      "good",
+      "limit",
+      "maximum",
+      "maximum credits",
+      "number",
+      "per",
+      "standing",
+      "students",      "take",
+      "trimester"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How are lab courses graded?",
+    "answer": "Attendance (10%), Performance (25%), Reports (10%), Project/Viva (25%), Final Exam (30%).",
+    "keywords": [
+      "assessment",
+      "attendance",
+      "courses",
+      "exam",
+      "final",
+      "graded",
+      "grading",
+      "how",
+      "lab",
+      "performance"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar",
+      "facilities"
+    ]
+  },
+  {
+    "question": "What happens if a student misses 25% of lab sessions?",
+    "answer": "Automatic failure in the lab course as per department policy.",
+    "keywords": [
+      "attendance",
+      "automatic",
+      "course",
+      "department",
+      "failure",
+      "happens",
+      "lab",
+      "misses",
+      "per",
+      "policy"
+    ],
+    "categories": [
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "When can students start their capstone project?",
+    "answer": "After completing 110 credits (Day) or 100 credits (Evening), typically in Level-4.",
+    "keywords": [
+      "100",
+      "110",
+      "capstone",
+      "completing",
+      "credits",
+      "day",
+      "eligibility",
+      "evening",
+      "level",
+      "project"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How is the thesis evaluated?",
+    "answer": "60% by supervisor (regularity, literature review, results) + 40% by committee (presentation, report quality).",
+    "keywords": [
+      "committee",
+      "evaluated",
+      "evaluation",
+      "grading",
+      "how",
+      "literature",
+      "presentation",
+      "project",
+      "quality",
+      "regularity"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Which courses are in the Machine Learning track?",
+    "answer": "Machine Learning (CSE 411), Data Mining (CSE 435), Big Data Analytics (CSE 441), and their lab courses.",
+    "keywords": [
+      "411",
+      "435",
+      "441",
+      "AI",
+      "analytics",
+      "big",
+      "courses",
+      "cse",
+      "data",
+      "electives"
+    ],
+    "categories": [
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "Where can students access course materials?",
+    "answer": "Through faculty course websites and the Chairperson's office upon request.",
+    "keywords": [
+      "access",
+      "chairperson",
+      "course",
+      "documents",
+      "faculty",
+      "materials",
+      "office",
+      "request",
+      "resources",
+      "students"
+    ],
+    "categories": [
+      "programs_courses",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "What are the admission requirements for the CSE program?",
+    "answer": "Admission requires: (1) Minimum GPA 3.0 in SSC & HSC, (2) Passing grade in admission test, (3) Completed application form with transcripts.",
+    "keywords": [
+      "CSE",
+      "admission",
+      "application",
+      "apply",
+      "completed",
+      "cse",
+      "eligibility",
+      "enroll",
+      "enrollment",
+      "entry"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "general_info"
+    ]
+  },
+  {
+    "question": "How can I contact the CSE department office?",
+    "answer": "Call +880-9613-777-888 or email cse@green.edu.bd. Office hours are 9AM-5PM Sunday-Thursday.",
+    "keywords": [
+      "5pm",
+      "777",
+      "880",
+      "888",
+      "9613",
+      "9am",
+      "CSE",
+      "bangladesh",
+      "call",
+      "contact"
+    ],
+    "categories": [
+      "programs_courses",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "What are the office hours for faculty members?",
+    "answer": "Faculty must maintain at least 3 office hours per week for a 3-credit course, posted on their office doors.",
+    "keywords": [
+      "consultation",
+      "course",
+      "credit",
+      "doors",
+      "faculty",
+      "hours",
+      "least",
+      "maintain",
+      "members",
+      "office"
+    ],
+    "categories": [
+      "programs_courses",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "What software is used in the Computer Architecture lab?",
+    "answer": "Labs use Logisim for digital logic simulation and MARS MIPS simulator for computer architecture experiments.",
+    "keywords": [
+      "Computer Architecture",
+      "architecture",
+      "computer",
+      "cs",
+      "cse",
+      "digital",
+      "experiments",
+      "it",
+      "lab",
+      "labs"
+    ],
+    "categories": [
+      "facilities"
+    ]
+  },
+  {
+    "question": "How can I access course registration (GUMS)?",
+    "answer": "Access GUMS at gums.green.edu.bd using your student credentials. Contact IT support if login fails.",
+    "keywords": [
+      "GUMS",
+      "access",
+      "bangladesh",
+      "contact",
+      "course",
+      "credentials",
+      "edu",
+      "fails",
+      "green",
+      "gub"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar",
+      "contact_location",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "What is the minimum CGPA to avoid probation?",
+    "answer": "Students must maintain a minimum CGPA of 2.50 to remain in good standing.",
+    "keywords": [
+      "CGPA",
+      "avoid",
+      "cgpa",
+      "good",
+      "maintain",
+      "minimum",
+      "probation",
+      "remain",
+      "requirement",
+      "standing"
+    ],
+    "categories": [
+      "admission"
+    ]
+  },
+  {
+    "question": "Are there scholarships for CSE students?",
+    "answer": "Yes, merit-based scholarships are available for top 5% of students each semester. Apply through the Financial Aid office.",
+    "keywords": [
+      "CSE",
+      "academic",
+      "aid",
+      "apply",
+      "available",
+      "based",
+      "cse",
+      "each",
+      "financial",
+      "financial aid"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "academic_calendar",
+      "facilities",
+      "contact_location",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "Where is the main CSE department located?",
+    "answer": "Room 420 in the Academic Building A, 220/D Begum Rokeya Sarani, Dhaka.",
+    "keywords": [
+      "220",
+      "420",
+      "CSE",
+      "academic",
+      "begum",
+      "building",
+      "cse",
+      "department",
+      "dhaka",
+      "located"
+    ],
+    "categories": [
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "What is the Industrial Training requirement?",
+    "answer": "12-16 weeks of hands-on industry experience (CSE 458), typically completed in the final year.",
+    "keywords": [
+      "458",
+      "completed",
+      "cse",
+      "experience",
+      "final",
+      "hands",
+      "industrial",
+      "industry",
+      "internship",
+      "requirement"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "How are thesis projects assigned?",
+    "answer": "Students propose topics in Week 1 of Level-4 Term-1, subject to faculty approval and availability.",
+    "keywords": [
+      "approval",
+      "assigned",
+      "assignment",
+      "availability",
+      "faculty",
+      "how",
+      "level",
+      "project",
+      "projects",
+      "propose"
+    ],
+    "categories": [
+      "facilities"
+    ]
+  },
+  {
+    "question": "Are laptops required for CSE courses?",
+    "answer": "Yes, all CSE students must bring laptops to labs and recommended for theory classes.",
+    "keywords": [
+      "CSE",
+      "all",
+      "bring",
+      "classes",
+      "courses",
+      "cse",
+      "hardware",
+      "labs",
+      "laptop",
+      "laptops"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar",
+      "facilities"
+    ]
+  },
+  {
+    "question": "How do I apply for course overload?",
+    "answer": "Submit an overload petition to the department chair after Week 2 if CGPA >3.0.",
+    "keywords": [
+      "apply",
+      "cgpa",
+      "chair",
+      "course",
+      "courses",
+      "department",
+      "how",
+      "overload",
+      "petition",
+      "registration"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses"
+    ]
+  },
+  {
+    "question": "Where can I buy course textbooks?",
+    "answer": "At the GUB bookstore (Ground Floor, Admin Building) or online through the library portal.",
+    "keywords": [
+      "admin",
+      "books",
+      "bookstore",
+      "building",
+      "buy",
+      "course",
+      "digital",
+      "floor",
+      "ground",
+      "gub"
+    ],
+    "categories": [
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "How do I report grading errors?",
+    "answer": "Submit a formal appeal to the department within 7 days of grade release.",
+    "keywords": [
+      "appeal",
+      "days",
+      "department",
+      "errors",
+      "formal",
+      "grade",
+      "grading",
+      "how",
+      "policy",
+      "release"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Can I take courses after completing credit requirements?",
+    "answer": "Yes, as a non-degree student with payment of per-credit fees and available seats.",
+    "keywords": [
+      "available",
+      "completing",
+      "cost",
+      "courses",
+      "credit",
+      "degree",
+      "extra",
+      "fees",
+      "graduation",
+      "money"
+    ],
+    "categories": [
+      "fees_tuition",
+      "admission",
+      "programs_courses",
+      "facilities"
+    ]
+  },
+  {
+    "question": "How many faculty members supervise each thesis project?",
+    "answer": "One primary supervisor and optionally one co-supervisor for interdisciplinary projects.",
+    "keywords": [
+      "each",
+      "faculty",
+      "how",
+      "interdisciplinary",
+      "many",
+      "members",
+      "one",
+      "optionally",
+      "primary",
+      "project"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "What is the policy on name corrections in academic records?",
+    "answer": "Submit notarized documents to the Registrar's office within the first term of enrollment.",
+    "keywords": [
+      "academic",
+      "corrections",
+      "documents",
+      "enrollment",
+      "first",
+      "name",
+      "notarized",
+      "office",
+      "policy",
+      "records"
+    ],
+    "categories": [
+      "contact_location"
+    ]
+  },
+  {
+    "question": "What is the policy on using AI tools for assignments?",
+    "answer": "Allowed only when explicitly permitted by instructor. Unauthorized use constitutes plagiarism.",
+    "keywords": [
+      "AI",
+      "allowed",
+      "assignments",
+      "constitutes",
+      "explicitly",
+      "instructor",
+      "only",
+      "permitted",
+      "plagiarism",
+      "policy"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "What is the policy on remote attendance for illness?",
+    "answer": "Not permitted except for documented long-term medical conditions with prior approval.",
+    "keywords": [
+      "approval",
+      "attendance",
+      "conditions",
+      "documented",
+      "except",
+      "illness",
+      "long",
+      "medical",
+      "not",
+      "permitted"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "What is the policy on student-run coding clubs?",
+    "answer": "Officially recognized clubs receive department funding and faculty advisors.",
+    "keywords": [
+      "advisors",
+      "clubs",
+      "coding",
+      "department",
+      "faculty",
+      "funding",
+      "officially",
+      "organizations",
+      "policy",
+      "receive"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How do I apply for graduation?",
+    "answer": "Submit a graduation application form to the Registrar's office by Week 2 of your final term with all transcripts.",
+    "keywords": [
+      "all",
+      "application",
+      "apply",
+      "deadline",
+      "final",
+      "form",
+      "graduation",
+      "how",
+      "office",
+      "procedure"
+    ],
+    "categories": [
+      "admission",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "Where can I find my class schedule?",
+    "answer": "Official schedules are available on GUMS and posted outside the CSE department office by Week 1.",
+    "keywords": [
+      "GUMS",
+      "available",
+      "class",
+      "classes",
+      "cse",
+      "department",
+      "find",
+      "gums",
+      "office",
+      "official"
+    ],
+    "categories": [
+      "programs_courses",
+      "academic_calendar",
+      "facilities",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "How are group project teams assigned?",
+    "answer": "Teams of 3-4 students are either self-formed or assigned by the instructor by Week 2.",
+    "keywords": [
+      "assigned",
+      "assignment",
+      "either",
+      "formed",
+      "group",
+      "how",
+      "instructor",
+      "project",
+      "projects",
+      "self"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "Are there any scholarships for female CSE students?",
+    "answer": "Yes, the Women in Tech scholarship covers 25% tuition for top 10 female students each term.",
+    "keywords": [
+      "aid",
+      "any",
+      "cost",
+      "covers",
+      "cse",
+      "each",
+      "fee",
+      "female",
+      "financial",
+      "merit"
+    ],
+    "categories": [
+      "fees_tuition",
+      "programs_courses",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "What is the policy on late registration?",
+    "answer": "Late registration permitted until Week 2 with 5,000 BDT penalty fee. No registration after Week 2.",
+    "keywords": [
+      "000",
+      "bdt",
+      "cost",
+      "fee",
+      "late",
+      "money",
+      "payment",
+      "penalty",
+      "permitted",
+      "policy"
+    ],
+    "categories": [
+      "fees_tuition",
+      "academic_calendar"
+    ]
+  },
+  {
+    "question": "How do I request a transcript?",
+    "answer": "Official transcripts can be ordered from the Registrar's office with 3 business days processing.",
+    "keywords": [
+      "Registrar",
+      "bba",
+      "business",
+      "commerce",
+      "days",
+      "finance",
+      "how",
+      "management",
+      "office",
+      "official"
+    ],
+    "categories": [
+      "contact_location"
+    ]
+  },
+  {
+    "question": "How do I reset my GUMS password?",
+    "answer": "Use the 'Forgot Password' link on the GUMS login page or visit IT support in Admin Building.",
+    "keywords": [
+      "GUMS",
+      "account",
+      "admin",
+      "building",
+      "forgot",
+      "gums",
+      "how",
+      "link",
+      "login",
+      "page"
+    ],
+    "categories": [
+      "facilities",
+      "scholarships"
+    ]
+  },
+  {
+    "question": "What is the policy on external internships?",
+    "answer": "Maximum 1 internship can replace Industrial Training with prior department approval.",
+    "keywords": [
+      "Industrial Training",
+      "approval",
+      "department",
+      "external",
+      "industrial",
+      "internship",
+      "internships",
+      "maximum",
+      "policy",
+      "prior"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How do I access the IEEE student membership?",
+    "answer": "GUB provides subsidized IEEE memberships. Apply through the CSE department office.",
+    "keywords": [
+      "IEEE",
+      "access",
+      "apply",
+      "cse",
+      "department",
+      "gub",
+      "how",
+      "ieee",
+      "membership",
+      "memberships"
+    ],
+    "categories": [
+      "admission",
+      "programs_courses",
+      "contact_location"
+    ]
+  },
+  {
+    "question": "How many departments are under the Faculty of Arts and Social Sciences?",
+    "answer": "There are three departments under the Faculty of Arts and Social Sciences.",
+    "keywords": [
+      "FASS",
+      "Faculty of Arts and Social Sciences",
+      "arts",
+      "cs",
+      "cse",
+      "departments",
+      "faculty",
+      "how",
+      "it",
+      "many"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How many departments are under the Faculty of Business Studies?",
+    "answer": "There is one department under the Faculty of Business Studies.",
+    "keywords": [
+      "Faculty of Business Studies",
+      "bba",
+      "business",
+      "commerce",
+      "department",
+      "departments",
+      "faculty",
+      "fbs",
+      "finance",
+      "how"
+    ],
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "question": "How many departments are under the Faculty of Law?",
+    "answer": "There is one department under the Faculty of Law.",
+    "keywords": [
+      "Faculty of Law",
+      "department",
+      "departments",
+      "faculty",
+      "how",
+      "law",
+      "many",
+      "one",
+      "there",
+      "under"
+    ],
+    "categories": [
+      "general"
+    ]
+  }
+]

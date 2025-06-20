@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Connection Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .success { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+        .error { background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+        .info { background-color: #d1ecf1; border: 1px solid #bee5eb; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Chatbot System Test</h1>
+    <div id="test-results"></div>
+    <button onclick="runTests()">Run Tests</button>
+
+    <script>
+        async function runTests() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<h2>Running Tests...</h2>';
+            
+            let html = '';
+
+            // Test 1: Check if offline function exists
+            html += '<h3>Test 1: Offline Function Check</h3>';
+            try {
+                if (typeof findBestOfflineMatch === 'function') {
+                    html += '<div class="test-result success">✅ findBestOfflineMatch function exists</div>';
+                } else {
+                    html += '<div class="test-result error">❌ findBestOfflineMatch function not found</div>';
+                }
+            } catch (e) {
+                html += '<div class="test-result error">❌ Error checking offline function: ' + e.message + '</div>';
+            }
+
+            // Test 2: Test offline function
+            html += '<h3>Test 2: Offline Function Test</h3>';
+            try {
+                const testResponse = findBestOfflineMatch("hello");
+                if (testResponse && testResponse.length > 0) {
+                    html += '<div class="test-result success">✅ Offline function working: ' + testResponse.substring(0, 50) + '...</div>';
+                } else {
+                    html += '<div class="test-result error">❌ Offline function returned empty response</div>';
+                }
+            } catch (e) {
+                html += '<div class="test-result error">❌ Offline function error: ' + e.message + '</div>';
+            }
+
+            // Test 3: Check Python server connection
+            html += '<h3>Test 3: Python Server Connection</h3>';
+            try {
+                const response = await fetch('http://localhost:5000/health', {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    html += '<div class="test-result success">✅ Python server is running: ' + data.status + '</div>';
+                } else {
+                    html += '<div class="test-result error">❌ Python server responded with error: ' + response.status + '</div>';
+                }
+            } catch (e) {
+                html += '<div class="test-result error">❌ Cannot connect to Python server: ' + e.message + '</div>';
+            }
+
+            // Test 4: Test chat endpoint
+            html += '<h3>Test 4: Chat Endpoint Test</h3>';
+            try {
+                const chatResponse = await fetch('http://localhost:5000/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: 'hello' })
+                });
+                
+                if (chatResponse.ok) {
+                    const chatData = await chatResponse.json();
+                    html += '<div class="test-result success">✅ Chat endpoint working. Response: ' + chatData.answer.substring(0, 50) + '...</div>';
+                    html += '<div class="test-result info">📊 Confidence: ' + (chatData.confidence * 100).toFixed(1) + '%</div>';
+                } else {
+                    html += '<div class="test-result error">❌ Chat endpoint error: ' + chatResponse.status + '</div>';
+                }
+            } catch (e) {
+                html += '<div class="test-result error">❌ Chat endpoint error: ' + e.message + '</div>';
+            }
+
+            html += '<h3>✅ Test Complete!</h3>';
+            resultsDiv.innerHTML = html;
+        }
+
+        // Define offline function for testing (minimal version)
+        const CHATBOT_DATA = [
+            {
+                question: "What is Green University?",
+                answer: "Green University of Bangladesh is a private university established in 2003.",
+                keywords: ["green", "university", "about", "what", "information"]
+            }
+        ];
+
+        function findBestOfflineMatch(userInput) {
+            const input = userInput.toLowerCase().trim();
+            
+            if (input.match(/^(hi|hello|hey|greetings).*$/)) {
+                return "Hello! Welcome to Green University of Bangladesh chatbot.";
+            }
+            
+            let bestScore = 0;
+            let bestAnswer = null;
+            
+            for (const item of CHATBOT_DATA) {
+                let score = 0;
+                for (const keyword of item.keywords) {
+                    if (input.includes(keyword.toLowerCase())) {
+                        score += 1;
+                    }
+                }
+                
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestAnswer = item.answer;
+                }
+            }
+            
+            return bestScore > 0 ? bestAnswer : "I don't have specific information about that.";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Test</title>
+    <style>
+        .avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #4F46E5;
+            margin: 20px;
+            display: inline-block;
+        }
+        
+        .test1 {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaNSwgPDS-SDW_dMaphPf6UKOCUk1KUq1quQ&s') center/cover;
+        }
+        
+        .test2 {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+        }
+        
+        .test3 {
+            background: #10B981;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Avatar Tests</h2>
+    <div class="avatar test1"></div> External Image
+    <div class="avatar test2"></div> Gradient Fallback
+    <div class="avatar test3">🤖</div> Emoji Fallback
+    
+    <script>
+        // Test image loading
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => console.log('Image loaded successfully');
+        img.onerror = () => console.log('Image failed to load');
+        img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaNSwgPDS-SDW_dMaphPf6UKOCUk1KUq1quQ&s';
+    </script>
+</body>
+</html>

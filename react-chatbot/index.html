@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green University Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <style>
+        /* Feedback System Styles */
+        .feedback-container {
+            margin-top: 12px;
+            padding: 8px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .feedback-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .feedback-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 6px 12px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .feedback-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feedback-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+        
+        .feedback-btn.selected {
+            background: rgba(16, 185, 129, 0.3);
+            border-color: #10b981;
+            color: #10b981;
+            font-weight: 600;
+        }
+        
+        .like-btn:hover:not(:disabled) {
+            background: rgba(233, 235, 234, 0.2);
+            border-color: #22c55e;
+            color: #2a04ffda;
+        }
+        
+        .dislike-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: #22c55e;
+            color: #2a04ffda;
+        }
+          .feedback-thanks {
+           position: absolute;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.8);
+            animation: fadeInScale 0.5s ease forwards;
+            opacity: 0;
+            transform: scale(0.8) translateY(10px);
+        }
+
+        .feedback-thanks::before {
+            content: '✨';
+            font-size: 16px;
+        }
+
+        @keyframes fadeInScale {
+            0% { 
+                opacity: 0; 
+                transform: scale(0.8) translateY(10px); 
+            }
+            100% { 
+                opacity: 1; 
+                transform: scale(1) translateY(0); 
+            }
+        }
+        
+        .learning-indicator {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .stats-toggle-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .stats-toggle-btn:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+        }
+        
+        .stats-panel {
+            position: fixed;
+            bottom: 80px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.95);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 13px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 280px;
+            min-width: 250px;
+            display: none;
+            z-index: 1000;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+        
+        .stats-panel.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+          .stats-panel h4 {
+            margin: 0 0 15px 0;
+            color: #10b981;
+            font-size: 18px; /* Bigger than message text (15px) */
+            text-align: center;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.3);
+            padding-bottom: 8px;
+        }
+        
+        .stats-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding: 4px 0;
+        }
+        
+        .stats-value {
+            font-weight: bold;
+            color: #10b981;
+        }
+        
+        .satisfaction-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+        
+        .satisfaction-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ef4444, #f59e0b, #10b981);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .export-btn {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            margin-top: 12px;
+            cursor: pointer;
+            font-size: 12px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .export-btn:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+          .improved-response {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            border-left: 4px solid #10b981;
+            margin: 12px 0;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 
+                0 2px 8px rgba(16, 185, 129, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            position: relative;
+        }
+
+        .improved-response::before {
+            content: '🧠';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .improved-response-label {
+            font-size: 12px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 6px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            padding: 4px 10px;
+            border-radius: 12px;
+            display: inline-block;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Feedback Analysis Modal Styles */
+        .analysis-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .analysis-modal.active {
+            display: flex;
+        }
+
+        .analysis-content {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(16, 185, 129, 0.3);
+            border: 2px solid rgba(16, 185, 129, 0.2);
+            position: relative;
+        }
+
+        .analysis-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgba(16, 185, 129, 0.3);
+        }        .analysis-header h3 {
+            color: #10b981;
+            font-size: 28px; /* Bigger than message text (15px) */
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .close-modal {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #ef4444;
+            color: #ef4444;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .close-modal:hover {
+            background: #ef4444;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .analysis-section {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: rgba(16, 185, 129, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }        .analysis-section h4 {
+            color: #34d399;
+            font-size: 20px; /* Bigger than message text (15px) */
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .insight-item {
+            padding: 12px;
+            margin: 8px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            color: #e5e7eb;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #047857 0%, #10b981 100%);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+
+        .metric-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .feedback-analysis-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 
+                0 8px 25px rgba(139, 92, 246, 0.4),
+                0 0 0 3px rgba(139, 92, 246, 0.2);
+            transition: all 0.3s ease;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feedback-analysis-btn:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 
+                0 12px 35px rgba(139, 92, 246, 0.5),
+                0 0 0 4px rgba(139, 92, 246, 0.3);
+        }
+
+        /* Enhanced data visualization styles */
+        .chart-container {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .progress-bar {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            height: 8px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+            border-radius: 20px;
+            transition: width 0.5s ease;
+        }
+
+        /* ...existing code... */
+    </style>
+</head>
+<body>    <!-- Server Control Panel - HIDDEN -->
+    <div class="server-panel" id="server-panel" style="display: none;">
+        <div class="server-status">
+            <div class="status-indicator" id="status-indicator">
+                <span class="status-dot offline" id="status-dot"></span>
+                <span id="status-text">Server Offline</span>
+            </div>            <button class="server-btn start-btn" id="start-server-btn" onclick="startServer()">
+                <span>🚀</span> Start Server
+            </button>
+            <button class="server-btn test-btn" id="test-server-btn" onclick="testServer()">
+                <span>🔄</span> Try Server Connection
+            </button>
+        </div>
+    </div>
+
+    <div id="root">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="profile">
+                    <div class="avatar bot-avatar"></div>
+                    <span>Green University Bot <i class="fi fi-rr-user-robot" style="padding-left: 4px;"></i> </span>
+                </div>                <div class="connection-status" id="connection-status" style="display: none;">
+                    <span class="connection-dot offline" id="connection-dot"></span>
+                </div>
+            </div>            <div class="messages" id="messages">
+                <!-- Initial welcome message will be added by JavaScript -->
+                <!-- Messages will be added dynamically here -->
+            </div>            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Ask me about Green University!">
+                <button id="send-button">Send</button>
+            </div>
+        </div>    </div>    <!-- Learning Statistics Toggle Button -->
+    <button class="stats-toggle-btn" id="statsToggleBtn" title="Show Learning Statistics">📊</button>
+    
+    <!-- Feedback Analysis Button -->
+    <button class="feedback-analysis-btn" id="feedbackAnalysisBtn" title="Analyze Feedback Data">🔍</button>
+    
+    <!-- Test Button for Debugging -->
+    <!-- <button class="stats-toggle-btn" onclick="testButtons()" title="Test Buttons" style="background: #ff6b6b; margin-left: 10px;">🧪</button> -->
+
+    <!-- Feedback Analysis Modal -->
+    <div class="analysis-modal" id="analysisModal">
+        <div class="analysis-content">
+            <div class="analysis-header">
+                <h3>🔬 Feedback Data Analysis</h3>
+                <button class="close-modal" onclick="closeFeedbackAnalysis()">×</button>
+            </div>
+            <div id="analysisResults">
+                <!-- Analysis results will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Learning Statistics Panel -->
+    <div class="stats-panel" id="statsPanel">
+        <h4>🧠 Learning Analytics</h4>
+        <div class="stats-row">
+            <span>Total Feedback:</span>
+            <span class="stats-value" id="totalFeedback">0</span>
+        </div>
+        <div class="stats-row">
+            <span>Likes:</span>
+            <span class="stats-value" id="totalLikes">0</span>
+        </div>
+        <div class="stats-row">
+            <span>Dislikes:</span>
+            <span class="stats-value" id="totalDislikes">0</span>
+        </div>
+        <div class="stats-row">
+            <span>Satisfaction:</span>
+            <span class="stats-value" id="satisfactionRate">0%</span>
+        </div>
+        <div class="satisfaction-bar">
+            <div class="satisfaction-fill" id="satisfactionFill" style="width: 0%"></div>
+        </div>
+        <div class="stats-row">
+            <span>Unique Questions:</span>
+            <span class="stats-value" id="uniqueQuestions">0</span>
+        </div>
+        <div class="stats-row">
+            <span>Improved Responses:</span>
+            <span class="stats-value" id="improvedResponses">0</span>
+        </div>
+        <button class="export-btn" onclick="exportFeedbackData()">
+            📁 Export Learning Data
+        </button>
+    </div>    <script>
+        // Initialize the chatbot
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('🚀 Initializing chatbot...');
+            loadFeedbackData();
+            
+            // Update stats with server data
+            await updateLearningStats();
+            
+            console.log('✅ Chatbot initialization complete');
+        });    </script>
+    <!-- <script src="offline-chatbot.js"></script> -->
+    <!-- <script src="enhanced-offline-chatbot.js"></script> -->
+    <!-- <script src="feedback-enhanced-chatbot.js"></script> -->
+    <script src="simple-script.js"></script>
+</body>
+</html>

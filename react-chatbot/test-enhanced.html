@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Chatbot Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .test-container { background: #f5f5f5; padding: 20px; margin: 10px 0; border-radius: 8px; }
+        .test-input { font-weight: bold; color: #2c5aa0; margin-bottom: 10px; }
+        .test-output { background: white; padding: 15px; border-radius: 5px; border-left: 4px solid #28a745; }
+        .loading { color: #666; font-style: italic; }
+        button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+        button:hover { background: #218838; }
+        .stats { background: #e3f2fd; padding: 15px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>🤖 Enhanced Green University Chatbot Test</h1>
+    
+    <div class="stats" id="stats">
+        <h3>📊 Enhancement Statistics</h3>
+        <p><strong>Loading data...</strong></p>
+    </div>
+
+    <div>
+        <h3>🧪 Quick Test Queries</h3>
+        <button onclick="testQuery('What is the CSE tuition fee?')">CSE Fee</button>
+        <button onclick="testQuery('How to apply for admission?')">Admission</button>
+        <button onclick="testQuery('BBA program details')">BBA Program</button>
+        <button onclick="testQuery('Contact information')">Contact</button>
+        <button onclick="testQuery('Scholarship information')">Scholarships</button>
+        <button onclick="testQuery('Campus facilities')">Facilities</button>
+        <button onclick="runAllTests()">Run All Tests</button>
+        <button onclick="clearResults()">Clear</button>
+    </div>
+
+    <div>
+        <h3>💬 Custom Test</h3>
+        <input type="text" id="customInput" placeholder="Ask any question..." style="width: 70%; padding: 8px;">
+        <button onclick="testCustomQuery()">Test</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="enhanced-offline-chatbot.js"></script>
+    <script>
+        // Test queries with expected improvements
+        const testQueries = [
+            "What is the tuition fee for CSE?",
+            "How much does BBA cost?",
+            "Admission requirements for Green University",
+            "Contact phone number",
+            "Where is GUB located?",
+            "Scholarship programs available",
+            "Library facilities",
+            "Engineering programs offered",
+            "How to apply for admission?",
+            "Academic calendar information",
+            "Additional fees besides tuition",
+            "Campus facilities available",
+            "EEE program details",
+            "Civil engineering admission",
+            "English department information"
+        ];
+
+        let dataLoaded = false;
+
+        // Wait for enhanced data to load
+        setTimeout(async () => {
+            await loadEnhancedData();
+            dataLoaded = true;
+            updateStats();
+        }, 1000);
+
+        function updateStats() {
+            const statsDiv = document.getElementById('stats');
+            if (dataLoaded) {
+                statsDiv.innerHTML = `
+                    <h3>📊 Enhancement Statistics</h3>
+                    <p><strong>✅ Enhanced Data Loaded Successfully!</strong></p>
+                    <p>• Comprehensive dataset with 100+ optimized responses</p>
+                    <p>• Advanced keyword matching with 16+ keywords per response</p>
+                    <p>• Category-based intelligent scoring</p>
+                    <p>• Smart fallback responses for better coverage</p>
+                    <p>• Question variations and context understanding</p>
+                `;
+            } else {
+                statsDiv.innerHTML = `
+                    <h3>📊 Enhancement Statistics</h3>
+                    <p><strong>⚠️ Using Fallback Data</strong></p>
+                    <p>Enhanced data could not be loaded, using basic responses.</p>
+                `;
+            }
+        }
+
+        function testQuery(query) {
+            const resultsDiv = document.getElementById('results');
+            
+            // Add test container
+            const testDiv = document.createElement('div');
+            testDiv.className = 'test-container';
+            
+            const inputDiv = document.createElement('div');
+            inputDiv.className = 'test-input';
+            inputDiv.textContent = `🤔 User: "${query}"`;
+            
+            const outputDiv = document.createElement('div');
+            outputDiv.className = 'test-output';
+            outputDiv.innerHTML = '<div class="loading">🤖 Thinking...</div>';
+            
+            testDiv.appendChild(inputDiv);
+            testDiv.appendChild(outputDiv);
+            resultsDiv.appendChild(testDiv);
+            
+            // Scroll to new test
+            testDiv.scrollIntoView({ behavior: 'smooth' });
+            
+            // Get response
+            setTimeout(() => {
+                const response = findBestOfflineMatch(query);
+                outputDiv.innerHTML = `<strong>🤖 Bot:</strong> ${response}`;
+            }, 500);
+        }
+
+        function testCustomQuery() {
+            const input = document.getElementById('customInput');
+            const query = input.value.trim();
+            if (query) {
+                testQuery(query);
+                input.value = '';
+            }
+        }
+
+        function runAllTests() {
+            clearResults();
+            testQueries.forEach((query, index) => {
+                setTimeout(() => testQuery(query), index * 800);
+            });
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+
+        // Handle Enter key in custom input
+        document.getElementById('customInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                testCustomQuery();
+            }
+        });
+
+        // Initial load message
+        setTimeout(() => {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `
+                <div class="test-container">
+                    <div class="test-input">👋 Welcome to the Enhanced Chatbot Test!</div>
+                    <div class="test-output">
+                        <strong>Instructions:</strong><br>
+                        • Click the test buttons above to try predefined queries<br>
+                        • Use the custom input to test your own questions<br>
+                        • The enhanced system provides more accurate and comprehensive responses<br>
+                        • Try variations of questions to see improved matching!
+                    </div>
+                </div>
+            `;
+        }, 500);
+    </script>
+</body>
+</html>

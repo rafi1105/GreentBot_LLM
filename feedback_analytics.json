@@ -1,0 +1,125 @@
+{
+  "feedback_history": [
+    {
+      "timestamp": "2025-06-17T08:40:26.276371",
+      "question": "What is the maximum number of credits per trimester?",
+      "answer": "Wrong answer about something",
+      "feedback": "dislike",
+      "matched_data_index": 100,
+      "confidence": 0.5,
+      "action_taken": "removed_data_items: 1, blocked_keywords: 21",
+      "removed_items": [
+        {
+          "index": 100,
+          "question": "What courses are mandatory in Level-1 Term-1?",
+          "answer": "EAP 101 (English, 3 cr), PHY 101 (Physics I, 3 cr), CSE 101 (Discrete Math, 3 cr), and MAT 101 (Calculus, 3 cr).",
+          "keywords": [
+            "101",
+            "calculus",
+            "courses",
+            "cse",
+            "discrete",
+            "eap",
+            "english",
+            "first semester",
+            "freshman",
+            "level",
+            "mandatory",
+            "mat",
+            "math",
+            "phy",
+            "physics",
+            "term",
+            "what"
+          ],
+          "removal_reason": "negative_feedback",
+          "user_question": "What is the maximum number of credits per trimester?",
+          "timestamp": "2025-06-17T08:40:26.276371"
+        }
+      ],
+      "blocked_patterns": [
+        "term",
+        "mandatory",
+        "english",
+        "101",
+        "freshman",
+        "trimester",
+        "discrete",
+        "math",
+        "what",
+        "cse",
+        "credits",
+        "eap",
+        "number",
+        "phy",
+        "courses",
+        "first semester",
+        "maximum",
+        "calculus",
+        "level",
+        "mat",
+        "physics"
+      ],
+      "backup_created": true
+    },
+    {
+      "timestamp": "2025-06-17T08:43:41.766489",
+      "question": "cse",
+      "answer": "I'm sorry, but I need to improve my response for this question. Please contact Green University directly for accurate information: +880-2-7791071-5",
+      "feedback": "dislike",
+      "matched_data_index": null,
+      "confidence": null,
+      "action_taken": "error: cannot access local variable 'negative_patterns' where it is not associated with a value"
+    },
+    {
+      "timestamp": "2025-06-17T08:44:57.325239",
+      "question": "admission cse",
+      "answer": "I'm sorry, but I need to improve my response for this question. Please contact Green University directly for accurate information: +880-2-7791071-5",
+      "feedback": "dislike",
+      "matched_data_index": null,
+      "confidence": null,
+      "action_taken": "error: cannot access local variable 'negative_patterns' where it is not associated with a value"
+    }
+  ],
+  "negative_patterns": {},
+  "removed_data": [
+    {
+      "index": 100,
+      "question": "What courses are mandatory in Level-1 Term-1?",
+      "answer": "EAP 101 (English, 3 cr), PHY 101 (Physics I, 3 cr), CSE 101 (Discrete Math, 3 cr), and MAT 101 (Calculus, 3 cr).",
+      "keywords": [
+        "101",
+        "calculus",
+        "courses",
+        "cse",
+        "discrete",
+        "eap",
+        "english",
+        "first semester",
+        "freshman",
+        "level",
+        "mandatory",
+        "mat",
+        "math",
+        "phy",
+        "physics",
+        "term",
+        "what"
+      ],
+      "removal_reason": "negative_feedback",
+      "user_question": "What is the maximum number of credits per trimester?",
+      "timestamp": "2025-06-17T08:40:26.276371"
+    }
+  ],
+  "keyword_frequency": {},
+  "confidence_tracking": [
+    {
+      "timestamp": "2025-06-17T08:40:26.276371",
+      "confidence": 0.5,
+      "feedback": "dislike"
+    }
+  ],
+  "total_feedback": 1,
+  "positive_feedback": 1,
+  "last_updated": "2025-06-17T09:03:27.404907"
+}
