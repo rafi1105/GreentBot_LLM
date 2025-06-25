@@ -19,7 +19,8 @@ Green University Bot is a conversational AI assistant designed for Green Univers
 
 Displays a quick overview of feedback metrics and enables exporting learning data.
 
-![Learning Analytics Widget](image1)
+<img src="image1.png" width="400"/>
+
 
 ---
 
@@ -27,7 +28,7 @@ Displays a quick overview of feedback metrics and enables exporting learning dat
 
 Presents detailed analytics, including key metrics and system performance insights.
 
-![Feedback Data Analysis Dashboard](image2)
+<img src="image2.png" width="400"/>
 
 ---
 
@@ -35,8 +36,8 @@ Presents detailed analytics, including key metrics and system performance insigh
 
 The main chat interface where users interact with the Green University Bot.
 
-![Chatbot UI](image3)
 
+<img src="image3.png" width="400"/>
 ---
 
 ## Key Metrics Tracked
